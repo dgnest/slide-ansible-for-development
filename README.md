@@ -1,7 +1,7 @@
 <span class="badges">
 [![Build Status](https://travis-ci.org/dgnest/slide-ansible-for-development.svg)](https://travis-ci.org/dgnest/slide-ansible-for-development)
 [![Stories in Ready](https://badge.waffle.io/dgnest/slide-ansible-for-development.svg?label=ready&title=Ready)](http://waffle.io/dgnest/slide-ansible-for-development)
-[![GitHub issues](https://img.shields.io/github/issues/dgnest/slide-ansible-for-development.svg)](https://github.com/luismayta/slide-ansible-for-development)
+[![GitHub issues](https://img.shields.io/github/issues/dgnest/slide-ansible-for-development.svg)](https://github.com/dgnest/slide-ansible-for-development)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 </span>
 
