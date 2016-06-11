@@ -402,5 +402,3 @@ y ejecuta la tarea si el resultado es verdadero.
 # Preguntas:
 
 ![preguntas](../_assets/preguntas.jpg)
-
---------------------------------------------------
