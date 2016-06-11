@@ -3,6 +3,7 @@
 * Software Developer
 * Go enthusiast
 * Python enthusiast
+* Software Developer DgNest
 
 ## Contactos:
 
