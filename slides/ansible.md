@@ -1,8 +1,21 @@
-# Que es Ansible?
+# Automatización y Por qué es tan Importante?
 
-## Significado:
+![automatizacion](../_assets/automatizacion.jpg)
 
-máquina ficticia capaz de una comunicación más rápida que la luz
+--------------------------------------------------
+
+# Automatización
+
+La Automatización permite construir ambientes idénticos una vez tras otras.
+Todos los paquetes necesarios, archivos de configuración, etc.
+se pueden definir de forma lógica y usarlos para construir
+plataformas de forma automática y libre de errores.
+
+--------------------------------------------------
+
+# Provisionadores?
+
+![provisionadores](../_assets/chef.puppet.ansible.saltstack.fabric.png)
 
 --------------------------------------------------
 
@@ -14,7 +27,7 @@ muchas otras tareas de TI de una forma limpia y sencilla.
 
 --------------------------------------------------
 
-# Que es Ansible?
+# Porque Ansible?
 
 * Simple
 * Sin Agentes
@@ -24,7 +37,13 @@ muchas otras tareas de TI de una forma limpia y sencilla.
 
 --------------------------------------------------
 
-# Diferencia a otras Herramientas Similares:
+# Porque Ansible?
+
+![porque_ansible](../_assets/porque_ansible.jpg)
+
+--------------------------------------------------
+
+# Diferencia a otras Herramientas:
 
 * No Necesita Agentes.
 * No requiere de configuraciones engorrosas y complicadas.
@@ -349,5 +368,18 @@ y ejecuta la tarea si el resultado es verdadero.
 # Demo:
 
 ![yugu](../_assets/homer-yuju.png)
+
+--------------------------------------------------
+
+# Otras Herramientas:
+
+* Packer
+* Terraform
+
+--------------------------------------------------
+
+# Preguntas:
+
+![preguntas](../_assets/preguntas.jpg)
 
 --------------------------------------------------
