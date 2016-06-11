@@ -15,7 +15,7 @@ plataformas de forma automática y libre de errores.
 
 # Provisionadores?
 
-![provisionadores](../_assets/chef.puppet.ansible.saltstack.fabric.png)
+![provisionadores](../_assets/chef.puppet.ansibe.saltstack.fabric.png)
 
 --------------------------------------------------
 
@@ -39,7 +39,7 @@ muchas otras tareas de TI de una forma limpia y sencilla.
 
 # Porque Ansible?
 
-![porque_ansible](../_assets/porque_ansible.jpg)
+![porque_ansible](../_assets/porque_ansible.png)
 
 --------------------------------------------------
 
@@ -325,7 +325,28 @@ muchas otras tareas de TI de una forma limpia y sencilla.
 
     !bash
 
-    ansible-galaxy install -r roles.txt -p provision/ansible/roles
+    ansible-galaxy install -r requirements.yml -p provision/ansible/roles
+
+--------------------------------------------------
+
+# Dependencias:
+
+## requirements.yml:
+
+    !yaml
+
+    # Install a role from the Ansible Galaxy
+    - src: dgnest.authorization
+    - src: dgnest.common
+    - src: hadenlabs.nginx
+    - src: dgnest.supervisor
+    - src: dgnest.postgresql
+
+    # Install a role from GitHub
+
+    # - name: hadenlabs.superslacker
+    #   src: https://github.com/hadenlabs/ansible-role-superslacker
+    #   version: origin/master
 
 --------------------------------------------------
 
