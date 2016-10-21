@@ -1,4 +1,4 @@
 -r test.txt
-grip
+grip==4.3.2
 ipdb==0.8.1
 ipython==3.1.0
