@@ -30,7 +30,7 @@ make generate
 ```
 
 ```bash
-Open index.html
+Open public/index.html
 ```
 
 ### Documentation
