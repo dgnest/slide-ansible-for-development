@@ -1,28 +1,22 @@
 # This file is for unifying the coding style for different editors and IDEs
 # editorconfig.org
-
 root = true
 
 [*]
 indent_style = space
-indent_size = 4
+indent_size = 2
 end_of_line = lf
-charset = utf-8
 trim_trailing_whitespace = true
+charset = utf-8
 insert_final_newline = false
 
-[*.{el,md,coffee,pp}]
-indent_style = space
-indent_size = 2
-
-[*.{less,css}]
-indent_style = tab
-indent_size = 2
-
-[**.html]
-indent_style = tab
-indent_size = 2
-
-[*.{js,py,sh}]
-indent_style = space
+[*.{py,sh,feature}]
 indent_size = 4
+
+# Tabs
+[*.{less,css,Makefile,Vagrantfile}]
+indent_style = tab
+
+[Makefile]
+indent_size = 4
+indent_style = tab
