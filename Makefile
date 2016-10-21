@@ -19,17 +19,17 @@ TEST = $(shell) $(SCRIPT_DIR)/test.sh
 
 
 clean:
-    $(CLEAN)
+	$(CLEAN)
 
 environment:
-    $(GVM)
-    $(PYENV)
+	$(GVM)
+	$(PYENV)
 
 generate:
-    $(GENERATE)
+	$(GENERATE)
 
 setup:
-    $(SETUP)
+	$(SETUP)
 
 test:
-    $(TEST)
+	$(TEST)
