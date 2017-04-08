@@ -1,7 +1,7 @@
 # ~/.tmuxinator/slide-ansible-for-development.yml
 name: slide-ansible-for-development
 
-root: <%= ENV["PROJECTS"] %>/slides/ansible-for-development
+root: <%= ENV["PROJECTS"] %>/slides/slide-ansible-for-development
 tmux_options: -2
 # Optional tmux socket
 # socket_name: foo

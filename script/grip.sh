@@ -4,6 +4,4 @@
 # shellcheck source=/dev/null
 [ -r "script/bootstrap.sh" ] && source "script/bootstrap.sh"
 
-cd "${ROOT_DIR}" || exit
-
-landslide "${ETC_DIR}"/landslide.cfg
+grip --pass "${GITHUB_API_TOKEN}" "${GRIP_PORT}"
