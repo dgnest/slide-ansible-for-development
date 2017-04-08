@@ -1,9 +1,11 @@
 # Agenda
 
+- Automatización y Por qué es tan Importante?
 - Que es Ansible.
-- Porque lo necesito.
-- Ejemplos.
-- Casos de la vida real.
-- Instalacion.
-- Como Comienzo.
+- Porque Ansible.
+- Diferencia con otras herramientas.
+- Quienes usan Ansible.
+- Elementos de Ansible.
+- Demo.
+- Otras Herramientas.
 - Preguntas.

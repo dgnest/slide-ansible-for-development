@@ -1,6 +1,3 @@
 -r ../requirements.txt
-coverage
-coveralls
-ansible
-nose==1.3.7
+PyHamcrest==1.9.0
 tox==2.1.1

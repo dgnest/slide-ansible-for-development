@@ -1,9 +1,6 @@
-<span class="badges">
 [![Build Status](https://travis-ci.org/dgnest/slide-ansible-for-development.svg)](https://travis-ci.org/dgnest/slide-ansible-for-development)
-[![Stories in Ready](https://badge.waffle.io/dgnest/slide-ansible-for-development.svg?label=ready&title=Ready)](http://waffle.io/dgnest/slide-ansible-for-development)
-[![GitHub issues](https://img.shields.io/github/issues/dgnest/slide-ansible-for-development.svg)](https://github.com/luismayta/slide-ansible-for-development)
+[![GitHub issues](https://img.shields.io/github/issues/dgnest/slide-ansible-for-development.svg)](https://github.com/dgnest/slide-ansible-for-development)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
-</span>
 
 # Ansible for Developments
 
@@ -14,20 +11,20 @@ You can see the live presentation [here](http://dgnest.github.io/slide-ansible-f
 
 ### Requeriments
 
-* [Python 2.7.x](http://python.org/download/)
+* [Python 2.7.x][link-python]
 
 ### Install Requeriments
 
 ```bash
-pip install -r requeriments.txt
+make setup
 ```
 
 ### Slides
 
-Es necesario instalar [landslide](https://github.com/adamzap/landslide) para poder generar los slides.
+Es necesario instalar [landslide][link-landslide] para poder generar los slides.
 
 ```bash
-landslide main.cfg
+make generate
 ```
 
 ```bash
@@ -36,10 +33,10 @@ Open index.html
 
 ### Documentation
 
-Es necesario instalar [Grip](https://github.com/joeyespo/grip) para poder visualizar la documentación, ejecutando lo siguiente:
+Es necesario instalar [Grip][link-grip] para poder visualizar la documentación, ejecutando lo siguiente:
 
 ```bash
-grip 5000
+make grip
 ```
 
 ir a un navegador y colocar:
@@ -47,8 +44,12 @@ ir a un navegador y colocar:
 ```bash
 http://localhost:5000
 ```
-<span class="badges">
-[![](http://api.coderwall.com/luismayta/endorsecount.png)](http://coderwall.com/luismayta)
-[![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](http://pe.linkedin.com/in/luismayta)
+[![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)][link-linkedin-luismayta]
 [![Analytics](https://ga-beacon.appspot.com/UA-65019326-1/slide-ansible-for-development/readme)](https://github.com/dgnest/slide-ansible-for-development)
-</span>
+[wakatime][link-wakatime-luismayta]
+
+[link-wakatime-luismayta]: https://wakatime.com/@luismayta
+[link-linkedin-luismayta]: http://pe.linkedin.com/in/luismayta
+[link-python]: http://python.org/download/
+[link-landslide]: https://github.com/adamzap/landslide
+[link-grip]: https://github.com/joeyespo/grip
